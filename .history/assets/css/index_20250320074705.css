@@ -1,0 +1,61 @@
+/*------------
+ファーストビュー
+-------------*/
+.hero img{
+    width: 100%;
+}
+
+/*------------
+ABOUT
+-------------*/
+.about{
+    padding: 30px;
+    text-align: center;
+}
+
+/*------------
+MENU
+-------------*/
+.menu{
+    background-color: var(--secondary-color);
+    padding: 30px;
+    text-align: center;
+}
+
+
+.menu table{
+    margin: 0 auto;
+    text-align: left;
+    border:1px black solid;
+}
+
+.menu td{
+    padding: 10px;
+}
+
+aside{
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    padding: 30px;
+    text-align: center;
+}
+
+aside P{
+    margin-bottom: 20px;
+}
+
+aside figure img{
+    width: 150px;
+}
+
+aside .btn a{
+    display: inline-block;
+    background-color: var(--background-color);
+    padding: 20px 80px;
+    border-radius: 100px;
+}
+
+footer{
+    padding: 10px;
+    text-align: center;
+}

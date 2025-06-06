@@ -1,0 +1,27 @@
+/*-リセットcss-*/
+*{
+    padding: 0;
+    margin:0;
+}
+
+a{
+    color: ;
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+
+
+/*-色指定-*/
+:root{
+    --primary-color:#333;
+    --secondary-color:#f7f0d7;
+}
+
+
+
+/*-css-*/
+header{
+    background-color: var(--secondary-color);
+}

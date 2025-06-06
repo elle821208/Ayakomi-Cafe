@@ -1,0 +1,47 @@
+/*-リセットcss-*/
+*{
+    padding: 0;
+    margin:0;
+}
+
+a{
+    color: var(--primary-color);
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+
+
+
+/*-カスタムプロパティ-*/
+:root{
+    --background-color: #fff;
+    --primary-color:#333;
+    --secondary-color:#f7f0d7;
+}
+
+
+/*-css-*/
+body{
+    color: var(--primary-color);
+    background-color: var(--background-color);
+}
+
+
+
+header{
+    padding: 30px;
+    text-align: center;
+}
+
+header h1{
+    background-color: darkgreen;
+    font-size: clamp(28px,6vw,70px);
+    margin-bottom: 20px;
+}
+
+header nav ul{
+    display: flex;
+    justify-content:space-around;
+}

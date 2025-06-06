@@ -1,0 +1,13 @@
+.hero img{
+    width: 100%;
+}
+
+.about{
+    padding: 30px;
+    text-align: center;
+}
+
+.about h2{
+    font-size:clanp(22p);
+    margin-bottom: 20px;
+}

@@ -1,0 +1,23 @@
+/*-リセットcss-*/
+*{
+    padding: 0;
+    margin:0;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+
+
+/*-リセットcss-*/
+
+
+
+/*-css-*/
+header{
+    background-color: gold;
+}
